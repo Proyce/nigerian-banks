@@ -105,9 +105,12 @@ if __name__ == '__main__':
     for bank in banks:
         print(bank['id'], bank['code'], bank['name'])
 
-   # # Getting Bank data from URL.
-   # url = ('https://raw.githubusercontent.com/tomiiide/'
-   #        'nigerian-banks/master/banks.json')
-   # url_banks = from_URL(url)
-   # for u_bank in url_banks:
-   #     print(u_bank)
+    # Line break.
+    print('=' * 45, '\n')
+
+    # Getting Bank data from URL.
+    url = ('https://raw.githubusercontent.com/tomiiide/'
+           'nigerian-banks/master/banks.json')
+    url_banks = from_URL(url)
+    for u_bank in url_banks:
+        print(u_bank)
