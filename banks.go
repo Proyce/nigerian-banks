@@ -7,7 +7,7 @@
 //  GitHub: https://github.com/victor-iyiola
 //
 // @project
-//  File: banks.py
+//  File: banks.go
 //  Created on 24 September, 2018 @ 01:52 AM.
 //
 // @license
